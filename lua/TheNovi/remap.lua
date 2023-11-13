@@ -9,6 +9,9 @@ vim.g.mapleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+-- vim.cmd [[cmap W w]]
+b("c", "W", "w")
+
 -- b("n", "<leader>pv", vim.cmd.Ex)
 b("n", "<leader>so", ':so<CR>')
 
